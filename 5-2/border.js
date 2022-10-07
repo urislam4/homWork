@@ -1,7 +1,11 @@
-const div = document.querySelector('border');
+const text = document.querySelector('h1');
 
-div.onmousemove = () =>{
+text.onmouseenter = () =>{
     console.log("мышь в тексте");
+}
+
+text.onmouseleave = () =>{
+    console.log("мышь покинул  console")
 }
 
 
